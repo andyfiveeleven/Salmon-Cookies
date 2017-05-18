@@ -47,6 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+a{
+	color: #2c3126;
+	text-decoration: none;
+}
+
 /*element styles*/
 header{
 	width: 100%;
@@ -68,6 +73,14 @@ header div nav ul li{
 	display: inline-block;
 	float: right;
 	margin-top: 50px;
+}
+
+header div nav ul li a {
+	font-size: 30px;
+}
+
+a:hover {
+	color: #bbb;
 }
 
 .social-links img{
